@@ -55,5 +55,20 @@ fpu_interco:
   commit: be7808b84a1dcdb1ecdb6e40814cc4864acd9451
   domain: [soc, cluster]
   group: pulp-platform
-
-
+hwpe-ctrl:
+  commit: v1.5
+  group: pulp-platform
+  domain: [soc, cluster, pulp]
+hwpe-stream:
+  commit: a3e3607
+  group: pulp-platform
+  domain: [soc, cluster, pulp]
+hci:
+  commit: v1.0.3
+  group: pulp-platform
+  domain: [cluster, pulp]
+rbe:
+  commit: verification
+  group: pulp-restricted
+  server: git@iis-git.ee.ethz.ch
+  
